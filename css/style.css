@@ -1,0 +1,102 @@
+nav{
+    background-color: #40407a;
+    color: white;
+}
+#logo{
+    font-size: 30px;
+    color: white;
+    margin-right: 100px;
+    font-family: 'Alumni Sans Inline One', cursive;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+}
+
+.navbar-nav .nav-item .nav-link{
+    font-size: 20px;
+    color: white;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: rgb(167, 160, 160);
+}
+
+.container{
+    background-color: #40407a;
+    margin-top: 50px;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.navbar-toggler .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 255, 255, 255%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+ul li a::after{
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: white;
+    display: block;
+    transition: 0.3s ease-in-out
+}
+
+ul li a:hover:after{
+    content: "";
+    height: 2px;
+    width: 100%;
+    display: block;
+    background-color: white;
+}
+
+
+.portfolio{
+    color: white;
+    background-color: #40407a;
+    margin: 10px;
+    text-align: center;
+}
+
+.portfolioclass{
+    margin: 10px;
+}
+
+.card:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 15px black;
+    transition: 0.3s;
+}
+
+.footer{
+    outline: 1px solid blueviolet;
+}
+
+#fb:hover{
+    color: white;
+    background-color: blue;
+    transition: 0.3s;
+}
+
+#twt:hover{
+    background-color: #1DA1F2;
+    color: white;
+    transition: 0.3s;
+}
+
+#what:hover{
+    background-color: #2CD44E;
+    color: white;
+    transition: 0.3s;
+}
+
+.footer{
+    background-color:white;
+    border: #40407a;
+    align-items: center;
+    padding: 3px;
+
+}
+
+#button{
+    background-color: ;
+}
